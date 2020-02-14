@@ -1,0 +1,17 @@
+{
+  "name": "parcer-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "parcel-bundler": "^1.12.4",
+    "require": "^2.4.20",
+    "sass": "^1.25.0",
+    "@types/node": "^13.7.1"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}
